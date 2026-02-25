@@ -1,41 +1,39 @@
-import { Atom, Figma, FileCode2 } from "lucide-react";
-import { AiFillGithub } from "react-icons/ai";
+import { Atom, Figma } from "lucide-react";
+import { AiFillGithub  , AiOutlineJavaScript  } from "react-icons/ai";
+import { TbBrandNextjs , TbBrandCss3 } from "react-icons/tb";
 
-export default function Skills() {
-  // สร้าง Array เก็บข้อมูล Skills เพื่อให้โค้ดดูเป็นระเบียบและจัดการง่าย
+export default function Skills() 
+{
   const skills = [
     { 
       name: "React", 
       percent: "60%", 
-      // ใช้ Atom แทนไอคอน React และปรับสีฟ้าให้ใกล้เคียง
-      icon: <Atom size={32} className="text-[#00d8ff]" /> 
+      icon: <Atom size={50} className="text-[#00d8ff]" /> 
     },
     { 
       name: "Figma", 
       percent: "80%", 
-      icon: <Figma size={32} /> 
+      icon: <Figma size={50} /> 
     },
     { 
       name: "HTML/CSS", 
       percent: "80%", 
-      icon: <FileCode2 size={32} /> 
+      icon: <TbBrandCss3 size={50} /> 
     },
     { 
       name: "Next.js", 
       percent: "80%", 
-      // ใช้ตัวอักษร N แทนโลโก้ Next.js
-      icon: <div className="w-8 h-8 flex items-center justify-center bg-white text-black rounded-full font-bold text-lg">N</div> 
+      icon: <TbBrandNextjs size={50} />
     },
     { 
       name: "Java Script", 
       percent: "60%", 
-      // ใช้กรอบหกเหลี่ยมพร้อมตัวอักษร JS
-      icon: <div className="w-9 h-9 border-2 border-white rounded-lg flex items-center justify-center font-bold text-xs">JS</div> 
+      icon: <AiOutlineJavaScript size={50} /> 
     },
     { 
       name: "GitHub", 
       percent: "90%", 
-      icon: <AiFillGithub size={32} /> 
+      icon: <AiFillGithub size={50} /> 
     },
   ];
 

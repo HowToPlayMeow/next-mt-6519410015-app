@@ -10,7 +10,7 @@ export default function MyCard() {
       <h4 className="text-2xl text-[#FF8A00] font-medium mb-4">Tanakron<span className="text-white"> Panlerd</span></h4>
       {/* ส่วนรูปโปรไฟล์ (เอารูปตัวเองมาใส่ในโฟลเดอร์ public แล้วใช้ tag <img src="/ชื่อรูป.jpg" /> แทนได้ครับ) */}
       <div className="bg-[#2A2A2A] rounded-[30px] mb-4 flex items-center justify-center text-gray-500 overflow-hidden">
-        <img src="photo/6519410015.jpg" />
+        <img src="photo/6519410015.jpg"/>
       </div>
       
       {/* ชื่อและรหัส */}
@@ -27,7 +27,7 @@ export default function MyCard() {
       </div>
 
       {/* ปุ่ม HIRE ME */}
-      <button className="bg-[#FF8A00] text-black font-bold py-3 px-8 rounded-full w-full hover:bg-[#e67e00] transition-colors mt-auto">HIRE ME !</button>
+      <button className="bg-[#FF8A00] text-black font-bold py-3 px-8 rounded-full w-full hover:bg-[#e67e00] transition-colors mt-auto cursor-pointer">HIRE ME !</button>
     </div>
   );
 }

@@ -57,11 +57,7 @@ export default function ContactMe() {
 
         {/* Checkbox ยอมรับรับข่าวสาร */}
         <div className="flex items-center gap-3 mt-4">
-          <input 
-            type="checkbox" 
-            id="newsletter" 
-            className="w-4 h-4 accent-[#FF8A00] cursor-pointer" 
-          />
+          <input type="checkbox" id="newsletter" className="w-4 h-4 accent-[#FF8A00] cursor-pointer" />
           <label htmlFor="newsletter" className="text-gray-400 text-[10px] uppercase tracking-widest cursor-pointer hover:text-white transition-colors">
             I want to subscribe the newsletter.
           </label>
@@ -69,12 +65,7 @@ export default function ContactMe() {
 
         {/* ปุ่ม Submit (ขนาดความกว้างเท่ากับช่องกรอกฝั่งซ้าย) */}
         <div className="grid grid-cols-2 gap-10 mt-2">
-          <button 
-            type="button" 
-            className="bg-[#FF8A00] text-white font-medium py-2.5 rounded-full hover:bg-[#e67e00] transition-all duration-300 w-full"
-          >
-            Submit
-          </button>
+          <button type="button" className="bg-[#FF8A00] text-white font-medium py-2.5 rounded-full hover:bg-[#e67e00] transition-all duration-300 w-full cursor-pointer">Submit</button>
         </div>
 
       </form>

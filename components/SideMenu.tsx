@@ -3,10 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiHome , FiMessageSquare } from "react-icons/fi";
-import { PiUserListBold } from "react-icons/pi";
+import { PiUserListBold , PiBagSimple} from "react-icons/pi";
 import { LiaDoorOpenSolid } from "react-icons/lia";
 import { TfiList } from "react-icons/tfi";
-import { PiBagSimple } from "react-icons/pi";
 import { TbBrowserCheck } from "react-icons/tb";
 
 export default function SideMenu() 
@@ -25,7 +24,7 @@ export default function SideMenu()
   ];
 
   return (
-    <div className="w-14 h-[400px] rounded-[30px] py-7 flex flex-col items-center gap-2 shadow-lg border border-white/40">
+    <div className="w-14 h-[400px] rounded-[30px] py-6 flex flex-col items-center gap-2 shadow-lg border border-white/40">
       {menuItems.map((item) => 
       {
         const isActive = pathname === item.path;
@@ -36,8 +35,7 @@ export default function SideMenu()
                 isActive 
                   ? "bg-[#FF8A00] text-black shadow-[0_0_15px_rgba(255,138,0,0.5)]" 
                   : "text-gray-400 hover:text-white hover:bg-white/10"
-              }`}
-            >
+              }`}>
               {item.icon}
             </div>
           </Link>
