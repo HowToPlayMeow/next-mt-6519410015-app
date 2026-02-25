@@ -8,7 +8,7 @@ export default function Home() {
 
       {/* ส่วนแนะนำตัวหลัก */}
       <h1 className="text-[35px] font-bold leading-tight text-white mb-6">
-        Hi From <span className="text-[#FF8A00]">Chanintorn</span> ,<br />
+        Hi From <span className="text-[#FF8A00]">Tanakron</span> ,<br />
         Interactive Designer & Fullstack<br />
         Web Developer
       </h1>

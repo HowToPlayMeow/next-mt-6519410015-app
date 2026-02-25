@@ -2,9 +2,7 @@ export default function ContactMe() {
   return (
     <div className="flex flex-col justify-center h-full w-full">
       {/* ส่วนหัว Contact Me */}
-      <h3 className="text-3xl text-white font-bold mb-2">
-        Contact <span className="text-[#FF8A00]">Me</span>
-      </h3>
+      <h1 className="text-4xl text-white font-bold mb-2">Contact <span className="text-[#FF8A00]">Me</span></h1>
       <p className="text-gray-400 text-sm mb-10">Let's get in touch!</p>
 
       {/* ฟอร์มติดต่อ */}

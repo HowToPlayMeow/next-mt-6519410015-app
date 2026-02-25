@@ -25,7 +25,7 @@ export default function SideMenu()
   ];
 
   return (
-    <div className="w-16 h-[600px] rounded-[30px] py-8 flex flex-col items-center gap-6 shadow-lg border border-white/40">
+    <div className="w-14 h-[400px] rounded-[30px] py-7 flex flex-col items-center gap-2 shadow-lg border border-white/40">
       {menuItems.map((item) => 
       {
         const isActive = pathname === item.path;

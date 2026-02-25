@@ -2,9 +2,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col justify-center h-full w-full">
       {/* ส่วนหัว Featured Projects */}
-      <h3 className="text-2xl text-white font-medium mb-6">
-        Featured <span className="text-[#FF8A00]">Projects</span>
-      </h3>
+      <h1 className="text-4xl text-white font-medium mb-6">Featured <span className="text-[#FF8A00]">Projects</span></h1>
 
       {/* ชื่อโปรเจกต์และคำอธิบาย */}
       <div className="mb-6">

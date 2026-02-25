@@ -2,9 +2,9 @@ export default function EduExp() {
   return (
     <div className="flex flex-col justify-center h-full w-full">
       {/* ส่วนหัว Education & Experience */}
-      <h3 className="text-2xl text-white font-medium mb-8">
+      <h1 className="text-4xl text-white font-medium mb-8">
         Education & <span className="text-[#FF8A00]">Experience</span>
-      </h3>
+      </h1>
 
       {/* Container สำหรับรายการประวัติ */}
       <div className="flex flex-col gap-6">

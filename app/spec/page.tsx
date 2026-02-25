@@ -4,9 +4,9 @@ export default function Specializations() {
   return (
     <div className="flex flex-col justify-center h-full w-full">
       {/* ส่วนหัว My Specializations */}
-      <h3 className="text-2xl text-white font-medium mb-8">
+      <h1 className="text-4xl text-white font-medium mb-8">
         My <span className="text-[#FF8A00]">Specializations</span>
-      </h3>
+      </h1>
 
       {/* Container สำหรับกล่องความเชี่ยวชาญ */}
       <div className="flex flex-col gap-4">
