@@ -1,4 +1,5 @@
-import { Atom, Figma, FileCode2, Github } from "lucide-react";
+import { Atom, Figma, FileCode2 } from "lucide-react";
+import { AiFillGithub } from "react-icons/ai";
 
 export default function Skills() {
   // สร้าง Array เก็บข้อมูล Skills เพื่อให้โค้ดดูเป็นระเบียบและจัดการง่าย
@@ -34,7 +35,7 @@ export default function Skills() {
     { 
       name: "GitHub", 
       percent: "90%", 
-      icon: <Github size={32} /> 
+      icon: <AiFillGithub size={32} /> 
     },
   ];
 

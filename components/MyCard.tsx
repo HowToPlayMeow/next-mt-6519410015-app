@@ -1,11 +1,14 @@
-import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
+import { FaFacebookSquare , FaGoogle } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa6";
+import { PiLinkedinLogo } from "react-icons/pi";
 
 export default function MyCard() {
   return (
     <div className="w-64 h-[600px] rounded-[30px] p-6 flex flex-col items-center text-center shadow-lg border border-white/40">
       
       {/* ส่วนรูปโปรไฟล์ (เอารูปตัวเองมาใส่ในโฟลเดอร์ public แล้วใช้ tag <img src="/ชื่อรูป.jpg" /> แทนได้ครับ) */}
-      <div className="w-40 h-40 bg-[#2A2A2A] rounded-[30px] mb-4 flex items-center justify-center text-gray-500 overflow-hidden">
+      <div className="bg-[#2A2A2A] rounded-[30px] mb-4 flex items-center justify-center text-gray-500 overflow-hidden">
         <img src="http://203.159.94.107/cat/76cI.gif" />
       </div>
       
@@ -15,11 +18,11 @@ export default function MyCard() {
 
       {/* Social Icons */}
       <div className="flex gap-4 mb-8 text-gray-400">
-        <Facebook size={18} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
-        <Twitter size={18} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
-        <Instagram size={18} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
-        <Linkedin size={18} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
-        <Github size={18} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
+        <FaFacebookSquare size={30} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
+        <BsTwitterX size={30} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
+        <FaInstagram size={30} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
+        <PiLinkedinLogo size={30} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
+        <FaGoogle size={30} className="hover:text-[#FF8A00] cursor-pointer transition-colors" />
       </div>
 
       {/* ปุ่ม HIRE ME */}

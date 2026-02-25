@@ -2,7 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, User, GraduationCap, PenTool, Briefcase, Code, Mail } from "lucide-react";
+import { FiHome , FiMessageSquare } from "react-icons/fi";
+import { PiUserListBold } from "react-icons/pi";
+import { LiaDoorOpenSolid } from "react-icons/lia";
+import { TfiList } from "react-icons/tfi";
+import { PiBagSimple } from "react-icons/pi";
+import { TbBrowserCheck } from "react-icons/tb";
 
 export default function SideMenu() 
 {
@@ -10,13 +15,13 @@ export default function SideMenu()
 
   const menuItems = 
   [
-    { path: "/", icon: <Home size={20} /> },
-    { path: "/aboutme", icon: <User size={20} /> },
-    { path: "/eduexp", icon: <GraduationCap size={20} /> },
-    { path: "/spec", icon: <PenTool size={20} /> },
-    { path: "/projects", icon: <Briefcase size={20} /> },
-    { path: "/skills", icon: <Code size={20} /> },
-    { path: "/contactme", icon: <Mail size={20} /> },
+    { path: "/", icon: <FiHome size={20} /> },
+    { path: "/aboutme", icon: <PiUserListBold size={20} /> },
+    { path: "/eduexp", icon: <LiaDoorOpenSolid size={20} /> },
+    { path: "/spec", icon: <TfiList size={20} /> },
+    { path: "/projects", icon: <PiBagSimple size={20} /> },
+    { path: "/skills", icon: <TbBrowserCheck size={20} /> },
+    { path: "/contactme", icon: <FiMessageSquare size={20} /> },
   ];
 
   return (
