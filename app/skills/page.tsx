@@ -39,17 +39,14 @@ export default function Skills()
 
   return (
     <div className="flex flex-col justify-center h-full w-full">
-      {/* ส่วนหัว My Skills */}
-      <h1 className="text-4xl text-white font-medium mb-8">
-        My <span className="text-[#FF8A00]">Skills</span>
-      </h1>
+      
+      <h1 className="text-4xl text-white font-bold mb-8">My <span className="text-[#FF8A00]">Skills</span></h1>
 
-      {/* Grid ของ Skills (จัดเรียงแบบ Flex Wrap) */}
       <div className="flex flex-wrap gap-12">
+
         {skills.map((skill, index) => (
           <div key={index} className="flex flex-col items-center">
             
-            {/* กล่องวงรีแนวตั้ง (Pill shape) */}
             <div className="border border-gray-600/50 hover:border-[#FF8A00] transition-colors rounded-[50px] w-[90px] h-[130px] flex flex-col justify-center items-center gap-4 bg-[#1E1E1E]">
               <div className="text-white">
                 {skill.icon}
@@ -57,7 +54,6 @@ export default function Skills()
               <span className="text-[#FF8A00] text-sm font-medium">{skill.percent}</span>
             </div>
             
-            {/* ชื่อ Skill ด้านล่าง */}
             <span className="text-gray-300 text-sm mt-4">{skill.name}</span>
             
           </div>
